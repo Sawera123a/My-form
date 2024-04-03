@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background:linear-gradient(135deg,#71b7e6,#9b59b6) ;
+}
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+.form-container {
+    width: 350px;
+    margin-right: 20px;
+}
+form label {
+    /* display: block; */
+    margin-bottom: 5px;
+}
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input{
+    text-align: left;
+    width: 85%;
+    padding: 10px 20px ;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+button{
+    border: none;
+    padding: 10px 130px;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #007bff;
+    cursor: pointer;
+}
+.card{
+        width: 350px;
+        height: 60vh;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 10px;
+        background-color: white;
+
+}
+.card img{
+      width: 100%;
+      height: 38vh;
+}
+@media screen and (max-width:976px) {
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .card{
+        width: 280px;
+        height: 41vh;
+        margin-top:10px;
+    }
+    .form-container {
+        width: 290px;
+        margin-bottom: 18px;
+        margin-right: 0;
+    }
+    input{
+        padding: 5px 20px;
+    }
+    button{
+        padding: 8px 110px;
+    }
+    form{
+        padding: 18px;
+    }
+    .card img{
+        width: 100%;
+        height: 25vh;
+  }
+    
+}
