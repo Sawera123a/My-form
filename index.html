@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>displayobjects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="signInForm">
+                <div>
+                    <label for="name">Product Name:</label>
+                    <input type="text" placeholder="Enter name" id="name" name="name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="description">Description:</label>
+                    <input type="text" placeholder="Enter description" id="description" name="description" required>
+                </div>
+                <br>
+                <div>
+                    <label for="image">Image URL:</label>
+                    <input type="text" placeholder="Enter ImgUrl" id="image" name="image" required>
+                </div>
+                <br>
+                <div>
+                    <label for="price">Price:</label>
+                    <input type="text" placeholder="Enter Price" id="price" name="price" required>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="cardDisplay" class="card"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
